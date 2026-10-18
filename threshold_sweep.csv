@@ -1,0 +1,7 @@
+model,threshold,precision,recall,f1,FN,FP
+LogReg (default weights),0.3,0.5193,0.754,0.615,92,261
+LogReg (default weights),0.4,0.5682,0.6684,0.6143,124,190
+LogReg (default weights),0.5,0.6572,0.5588,0.604,165,109
+LogReg (class_weight='balanced'),0.3,0.4295,0.9278,0.5871,27,461
+LogReg (class_weight='balanced'),0.4,0.4662,0.8663,0.6062,50,371
+LogReg (class_weight='balanced'),0.5,0.5043,0.7834,0.6136,81,288

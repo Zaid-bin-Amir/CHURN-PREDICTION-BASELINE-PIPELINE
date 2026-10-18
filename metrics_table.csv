@@ -1,0 +1,4 @@
+,accuracy,precision,recall,f1,roc_auc
+Task 2 Baseline (majority class),0.7346,0.0,0.0,0.0,0.5
+LogReg (default weights),0.8055,0.6572,0.5588,0.604,0.8419
+LogReg (class_weight='balanced'),0.7381,0.5043,0.7834,0.6136,0.8414
